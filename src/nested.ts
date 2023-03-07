@@ -1,4 +1,3 @@
-import { queries } from "@testing-library/react";
 import { Answer } from "./interfaces/answer";
 import { Question, QuestionType } from "./interfaces/question";
 import { duplicateQuestion, makeBlankQuestion } from "./objects";
@@ -110,7 +109,6 @@ id,name,options,points,published
  * Check the unit tests for more examples!
  */
 export function toCSV(questions: Question[]): string {
-    const questionlist: Question[] = [...questions];
     const stringOut =
         "id,name,options,points,published\n" +
         questions
