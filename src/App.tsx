@@ -45,7 +45,7 @@ function App(): JSX.Element {
                             style={{ backgroundColor: "rgb(100,100,100)" }}
                         >
                             My name is Jacob Marks. Hello World. Flygon is a
-                            good Flygon is a good pokemon
+                            good pokemon
                         </h1>
                         <img
                             src={cat}
