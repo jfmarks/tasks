@@ -27,11 +27,13 @@ function App(): JSX.Element {
             <Container>
                 <Row>
                     <Col>
+                        <div>A list of some cool mons</div>
                         <ol>
                             <li>Trapinch</li>
+                            <li>Absol</li>
                             <li>Flygon</li>
-                            <li>Vibrava</li>
-                            <li>Regirock</li>
+                            <li>Swampert</li>
+                            <li>RegiRock un un un</li>
                         </ol>
 
                         <Button
@@ -46,8 +48,7 @@ function App(): JSX.Element {
                             className="AppAlt"
                             style={{ backgroundColor: "rgb(100,100,100)" }}
                         >
-                            My name is Jacob Marks. Hello World. Flygon is a
-                            good pokemon
+                            My name is Jacob Marks. Flygon is a good pokemon
                         </h1>
                         <img
                             src={cat}
