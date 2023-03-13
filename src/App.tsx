@@ -27,7 +27,6 @@ function App(): JSX.Element {
             <Container>
                 <Row>
                     <Col>
-                        <div className="RedRec"></div>
                         <ol>
                             <li>Trapinch</li>
                             <li>Flygon</li>
@@ -43,7 +42,6 @@ function App(): JSX.Element {
                         </Button>
                     </Col>
                     <Col>
-                        <div className="RedRec"></div>
                         <h1
                             className="AppAlt"
                             style={{ backgroundColor: "rgb(100,100,100)" }}
@@ -60,7 +58,7 @@ function App(): JSX.Element {
             </Container>
 
             <hr></hr>
-            {/* <DoubleHalf></DoubleHalf> */}
+            <DoubleHalf></DoubleHalf>
             <hr></hr>
             <ChooseTeam></ChooseTeam>
             <hr></hr>
